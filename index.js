@@ -12,7 +12,7 @@ app.use(cors({
   origin: (origin, callback) => {
     const allowedOrigins = [
         "http://localhost:5173", 
-        "https://bitlink-client.vercel.app",
+        "https://bitlink-gilt.vercel.app",
     ];
     console.log("cors origin : " , process.env.CORS_ORIGIN);
     if (!origin || allowedOrigins.includes(origin)) {
